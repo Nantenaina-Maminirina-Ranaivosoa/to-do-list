@@ -8,7 +8,7 @@ body {
     min-height: 100vh;
     padding-top: 50px;
   }
-
+  
   .container {
     background: white;
     padding: 30px;
@@ -17,12 +17,12 @@ body {
     width: 90%;
     max-width: 400px;
   }
-
+  
   h1 {
     text-align: center;
     margin-bottom: 20px;
   }
-
+  
   .input-section {
     display: flex;
     gap: 10px;
@@ -34,7 +34,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 6px;
   }
-
+  
   button {
     padding: 10px;
     background-color: #3498db;
@@ -46,4 +46,34 @@ body {
   
   button:hover {
     background-color: #2980b9;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  li {
+    background: #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  li button {
+    background: #e74c3c;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
   }
